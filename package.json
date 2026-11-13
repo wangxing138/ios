@@ -1,0 +1,23 @@
+{
+  "name": "baobaojian-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "宝宝剑安卓客户端（Capacitor 封装，原作者：派大星）",
+  "author": "派大星",
+  "license": "UNLICENSED",
+  "type": "module",
+  "scripts": {
+    "sync": "node scripts/sync.mjs",
+    "add-android": "npx cap add android",
+    "open": "npx cap open android",
+    "apk": "node scripts/sync.mjs && cd android && gradlew.bat assembleDebug"
+  },
+  "dependencies": {
+    "@capacitor-community/bluetooth-le": "^6.1.0",
+    "@capacitor/android": "^6.2.3",
+    "@capacitor/cli": "^6.2.3",
+    "@capacitor/core": "^6.2.3",
+    "@capacitor/ios": "^6.2.3",
+    "esbuild": "^0.28.2"
+  }
+}

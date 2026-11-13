@@ -1,0 +1,12 @@
+{
+	"appId": "com.paidaxing.baobaojian",
+	"appName": "宝宝剑",
+	"author": "派大星",
+	"webDir": "www",
+	"android": {
+		"allowMixedContent": false
+	},
+	"packageClassList": [
+		"BluetoothLe"
+	]
+}
